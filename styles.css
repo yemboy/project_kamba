@@ -1,0 +1,29 @@
+:root{--bg:#f6f8fb;--card:#fff;--accent:#3b82f6}
+*{box-sizing:border-box}body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#111}
+header{padding:1rem;text-align:center;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+.controls{display:flex;gap:.5rem;padding:1rem;justify-content:center;background:transparent}
+.controls input{padding:.5rem;min-width:200px}
+.controls select, .controls button{padding:.5rem}
+.board{display:flex;gap:1rem;padding:1rem}
+.col{flex:1;background:transparent}
+.col h2{text-align:center}
+.list{min-height:300px;background:transparent;padding:1rem;border-radius:6px;display:flex;flex-direction:column;gap:.5rem}
+.card{background:var(--card);padding:.75rem;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);cursor:grab}
+.card.dragging{opacity:.6}
+.card .meta{display:flex;justify-content:space-between;gap:.5rem;font-size:.85rem;color:#666}
+.card button{background:transparent;border:0;color:#e11d48;cursor:pointer}
+@media(max-width:700px){.board{flex-direction:column}}:root{--bg:#f6f8fb;--card:#fff;--accent:#3b82f6}
+*{box-sizing:border-box}body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#111}
+header{padding:1rem;text-align:center;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+.controls{display:flex;gap:.5rem;padding:1rem;justify-content:center;background:transparent}
+.controls input{padding:.5rem;min-width:200px}
+.controls select, .controls button{padding:.5rem}
+.board{display:flex;gap:1rem;padding:1rem}
+.col{flex:1;background:transparent}
+.col h2{text-align:center}
+.list{min-height:300px;background:transparent;padding:1rem;border-radius:6px;display:flex;flex-direction:column;gap:.5rem}
+.card{background:var(--card);padding:.75rem;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);cursor:grab}
+.card.dragging{opacity:.6}
+.card .meta{display:flex;justify-content:space-between;gap:.5rem;font-size:.85rem;color:#666}
+.card button{background:transparent;border:0;color:#e11d48;cursor:pointer}
+@media(max-width:700px){.board{flex-direction:column}}
